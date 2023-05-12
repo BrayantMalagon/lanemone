@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en, fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L'ANÉMONE</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="#">L'ANÉMONE</a>
+        </div>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="35"
+            height="35"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+          <button class="menu-toggle js-close-menu">
+            <svg
+              class="icon-modal"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-x-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+              />
+            </svg>
+          </button>
+
+          <ul class="mobile-menu">
+            <li><a href="" class="link">Accueil</a></li>
+            <li><a href="" class="link">Á Propos de nous</a></li>
+            <li><a href="" class="link">Services</a></li>
+            <li><a href="" class="link">Témoignages</a></li>
+            <li><a href="" class="link">Galerie</a></li>
+            <li><a href="" class="link">Contactez-nous</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="banner__bg">
+        <h1 class="banner__title">Fleuriste L'anémone</h1>
+        <h2 class="banner__text">Si vous en rêviez,<br> nous pouvons le faire</h2>
+        <div class="banner__line"></div>
+      </div>
+    </section>
+    <section class="services margin">
+      <div class="card">
+        <!-- titulo -->
+        <h2 class="card__title">Services</h2>
+        <!-- texto -->
+        <p class="card__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem blanditiis sapiente, quia velit expedita tenetur animi
+          dolorem odio numquam ratione nobis delectus necessitatibus nihil autem
+          rerum distinctio reprehenderit illum unde!
+        </p>
+        <!-- link -->
+        <div class="container-card__link">
+          <a class="card__link" href="">Voir les forfaits</a>
+          <div class="card__link-line"></div>
+        </div>
+      </div>
+      <!-- carrusel -->
+      <!-- gb -->
+      <div class="content-images-gb">
+        <div class="images-gb">
+        <!-- fotos -->
+        <div class="services-images-carrusel"></div>
+      </div>
+    </div>
+    </section>
+    <section class="galerie margin">
+      <div class="card">
+        <!-- titulo -->
+        <h2 class="card__title">Galerie</h2>
+        <!-- texto -->
+        <p class="card__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem blanditiis sapiente, quia velit expedita tenetur animi
+          dolorem odio numquam ratione nobis delectus necessitatibus nihil autem
+          rerum distinctio reprehenderit illum unde!
+        </p>
+        <!-- link -->
+        <div class="container-card__link">
+          <a class="card__link" href="">Voir les photos</a>
+          <div class="card__link-line"></div>
+        </div>
+        
+      </div>
+      <!-- carrusel -->
+      <!-- gb -->
+      <div class="content-images-gb">
+        <div class="images-gb">
+        <!-- fotos -->
+        <div class="services-images-carrusel"></div>
+      </div>
+    </section>
+    <section class="temoignages margin">
+      <div class="card">
+        <!-- titulo -->
+        <h2 class="card__title">Témoignages</h2>
+        <!-- texto -->
+        <p class="card__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem blanditiis sapiente, quia velit expedita tenetur animi
+          dolorem odio numquam ratione nobis delectus necessitatibus nihil autem
+          rerum distinctio reprehenderit illum unde!
+        </p>
+        <!-- link -->
+        <div class="container-card__link">
+          <a class="card__link" href="">Plus de témoignages</a>
+          <div class="card__link-line"></div>
+      </div>
+      <!-- carrusel -->
+      <!-- gb -->
+      <div class="content-images-gb">
+        <div class="images-gb">
+        <!-- fotos -->
+        <div class="services-images-carrusel"></div>
+      </div>
+    </section>
+    <section class="contact"></section>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="container-footer__address">Rue Sainte Helene <br> Longueuil, Quebec, Canada
+          <div class="container-footer__line"></div>
+        </div>
+        <div class="container-footer__contact">
+          <ul class="container-footer__list">
+            <li class="container-footer__item">
+              <a href="tel:+525555296000">Cel: +52 55 5529 6000</a>
+            </li>
+            <li class="container-footer__item">
+              <a href="mailto:info@lanemone.com">Email: info@devstudio.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="box-button">
+          <button class="button">Prenez rendez-vous.</button>
+        </div>
+      </div>
+      <div class="copyright">© L'anémone, 2023. Tous droits réservés.</div>
+    </footer>
+    <script defer src="./js/mobile-menu.js"></script>
+  </body>
+</html>
