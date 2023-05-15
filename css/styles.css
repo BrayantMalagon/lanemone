@@ -122,6 +122,7 @@
   margin: 20px 20px 20px 20px;
   max-width: 300px;
   text-align: start;
+  text-shadow: -6px 3px 5px rgba(0, 0, 0, 0.6);
 }
 .banner__text {
   font-family: 'roboto', serif;
@@ -237,6 +238,10 @@
   font-size: 20px;
   line-height: 1.4;
   text-decoration: none;
+}
+.container-footer__item:hover > a {
+  color: rgb(228, 175, 114);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box-button {
   display: flex;
