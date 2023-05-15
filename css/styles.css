@@ -225,6 +225,7 @@
 .box-button {
   display: flex;
   justify-content: center;
+  margin-top: 25px;
 }
 .button {
   width: 280px;
@@ -248,4 +249,16 @@
   font-family: 'Libre Baskerville', serif;
   color: #414141;
   font-style: italic;
+}
+@media screen and (min-width: 630px) {
+  .services,
+  .galerie,
+  .temoignages {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card__text {
+    padding-right: 30px;
+    max-width: 360px;
+  }
 }
