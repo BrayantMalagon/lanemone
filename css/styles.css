@@ -205,6 +205,19 @@
   top: 30px;
   border: 1px solid black;
   position: absolute;
+  overflow: hidden;
+  position: relative;
+}
+.img-galerie,
+.img-temoignages {
+  width: 100%;
+  top: -40px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-temoignages {
+  top: -5px;
 }
 .footer {
   margin-top: 25px;
@@ -271,7 +284,7 @@
 }
 .copyright {
   width: 100%;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   font-weight: 400;
   font-size: 16px;
   display: flex;
@@ -290,6 +303,49 @@
 .galerie > .card > .container-card__link {
   padding-left: 15px;
 }
+.box-c-lang {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  max-width: 100px;
+}
+.language__icon {
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+}
+.language__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 5px;
+}
+.language__item {
+  margin: 0 5px 0 5px;
+}
+.language__link {
+  font-family: 'Roboto', serif;
+  color: #414141;
+  font-weight: 200;
+  font-size: 16px;
+  text-decoration: none;
+}
+.language__link:hover {
+  color: var(--color-yellow);
+  cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 @media screen and (min-width: 560px) {
   .services,
   .galerie,
@@ -303,9 +359,16 @@
     max-width: 360px;
   }
   .content-images-gb {
-    /* display: flex;
-    justify-content: flex-end; */
     align-items: center;
+  }
+  .copyright {
+    max-width: 330px;
+  }
+  .box-c-lang {
+    /* display: flex; */
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
   }
 }
 @media screen and (min-width: 768px) {
@@ -370,6 +433,9 @@
   }
 }
 @media screen and (min-width: 880px) {
+  .card__text {
+    padding-right: 40px;
+  }
   .images-gb {
     width: 400px;
     height: 350px;
@@ -393,6 +459,7 @@
   }
   .card__text {
     max-width: 560px;
+    padding-right: 65px;
   }
   .container-footer__line {
     margin: 0 20px 0 20px;
