@@ -26,12 +26,21 @@
   display: flex;
   justify-content: space-between;
 }
-.logo {
+.box-logo {
   height: 100%;
   width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.box-logo:hover {
+  cursor: pointer;
+}
+.logo {
+  width: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 /* ----menu----- */
 .menu-toggle {
@@ -426,6 +435,9 @@
   }
 }
 @media screen and (min-width: 880px) {
+  .box-logo {
+    margin-left: 25px;
+  }
   .card__text {
     padding-right: 40px;
   }
