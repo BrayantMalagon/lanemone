@@ -212,10 +212,53 @@
   height: 200px;
   right: 30px;
   top: 30px;
-  border: 1px solid black;
   position: absolute;
   overflow: hidden;
   position: relative;
+}
+.carrusel-animation {
+  width: 400%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  animation: carrusel 16s infinite alternate ease-in-out;
+}
+.carrusel-animation li {
+  list-style: none;
+  width: 100%;
+}
+.carrusel-animation img {
+  width: 100%;
+}
+@keyframes carrusel {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
 }
 .img-galerie,
 .img-temoignages {
