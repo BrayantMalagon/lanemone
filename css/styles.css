@@ -474,10 +474,12 @@
   bottom: 25px;
   left: 25px;
   transition: 0.2s;
+  cursor: context-menu;
 }
-.services-card__text:hover {
+.services-card__box-img:hover .services-card__text {
   /* color: white; */
   background-color: rgb(241, 227, 210);
+  transform: scale(1.05);
 }
 .services-card__button {
   border: none;
@@ -649,4 +651,10 @@
     height: 500px;
     top: 80px;
   }
+}
+.active-color {
+  color: var(--color-yellow);
+}
+.mobile-menu .active-color {
+  color: var(--color-yellow);
 }
