@@ -658,3 +658,8 @@
 .mobile-menu .active-color {
   color: var(--color-yellow);
 }
+@media screen and (min-width: 1500px) {
+  .banner {
+    height: 800px;
+  }
+}
