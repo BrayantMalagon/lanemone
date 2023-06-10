@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>L'ANÉMONE</title>
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="icon" href="../imgs/favicon.ico">
+    <title>L'ANÉMONE | Florist | Weddings | Events | Greater Montreal</title>
+    <meta name="description" content="Services floraux de haute qualité, couverture d'événements corporatifs, mariages, cadeaux personnels, fêtes et anniversaires. Grand Montréal, Laval, Rive-Sud"/>
+    <meta name="author" content="Mary Ann - Florist"/>
+    <meta name="audience" content="all"/>
+    <meta name="robots" content="index, all, follow"/> 
+    <meta name="category" content="fleuriste,événements,mariages"/>
+    <meta itemprop="telephone" content="5145506399"/>
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="icon" href="../../imgs/favicon.ico">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -28,8 +34,8 @@
     <header class="header container">
       <div class="header-container">
         <div class="box-logo">
-          <a href="../index.html">
-            <img class="logo" src="../imgs/Logo.png" alt="Logo">
+          <a href="./home.html">
+            <img class="logo" src="../../imgs/Logo.png" alt="Logo">
           </a>
         </div>
         <button
@@ -69,42 +75,54 @@
           </button>
 
           <ul class="mobile-menu">
-            <li><a href="../index.html" class="link">Accueil</a></li>
-            <li><a href="./services.html" class="link">Services</a></li>
-            <li><a href="./galerie.html" class="link">Galerie</a></li>
-            <li><a href="./temoignages.html" class="link active-color">Témoignages</a></li>
-            <li><a href="./apropos.html" class="link">Á Propos de nous</a></li>
-            <li><a href="./contactez.html" class="link">Contactez-nous</a></li>
+            <li><a href="./home.html" class="link active-color">Home</a></li>
+            <li><a href="./services-en.html" class="link">Services</a></li>
+            <li><a href="./gallery.html" class="link">Gallery</a></li>
+            <li><a href="./testimonials.html" class="link">Testimonials</a></li>
+            <li><a href="./about-us.html" class="link">About us</a></li>
+            <li><a href="./contact-us.html" class="link">Contact us</a></li>
           </ul>
         </div>
         <div class="menu-row">
           <ul class="menu-row__list">
             <li class="menu-row__item"></li>
-            <a class="menu-row__link" href="../index.html">Accueil</a>  
+            <a class="menu-row__link active-color" href="./home.html">Home</a>  
             <li class="menu-row__item"></li>
-            <a class="menu-row__link" href="./services.html">Services</a>
+            <a class="menu-row__link" href="./services-en.html">Services</a>
             <li class="menu-row__item"></li>
-            <a class="menu-row__link" href="./galerie.html">Galerie</a>
+            <a class="menu-row__link" href="./gallery.html">Gallery</a>
             <li class="menu-row__item"></li>
-            <a class="menu-row__link active-color" href="./temoignages.html">Témoignages</a>
+            <a class="menu-row__link" href="./testimonials.html">Testimonials</a>
             <li class="menu-row__item"></li>
-            <a class="menu-row__link" href="./apropos.html">Á propos de nous</a>
+            <a class="menu-row__link" href="./about-us.html">About us</a>
             <li class="menu-row__item"></li>
-            <a class="menu-row__link" href="./contactez.html">Contactez-nous</a>
+            <a class="menu-row__link" href="./contact-us.html">Contact us</a>
           </ul>
         </div>
       </div>
     </header>
+    <section class="banner">
+      <div class="banner__bg">
+        <p class="banner__title">L'anémone</p>
+        <h1 class="banner__h1">Floral services for all types of events</h1>
+        <h2 class="banner__text">If you dreamed it, we can do it</h2>
+        <div class="banner__line"></div>
+      </div>
+    </section>
     <section class="services margin container">
       <div class="card">
         <!-- titulo -->
-        <h2 class="card__title">Erika leigh</h2>
+        <h2 class="card__title">Services</h2>
         <!-- texto -->
         <p class="card__text">
-          Mary Ann est la meilleure, elle est au-delà de la patience et de la compréhension. <br>
-          Elle a aidé à atténuer une grande partie du stress de notre mariage. <br>
-          Je suis tellement reconnaissante pour elle.
-        </p> 
+          We offer innovative style and decoration for weddings, corporate events, social parties and other social celebrations. <br>
+          We provide everything from bouquets, boutonnieres, corsages, hairpieces and personal flowers, to ceremony structures (like candles, door wreaths, arches) and reception centerpieces.
+        </p>
+        <!-- link -->
+        <div class="container-card__link">
+          <a class="card__link" href="./services-en.html">See packages</a>
+          <div class="card__link-line"></div>
+        </div>
       </div>
       <!-- carrusel -->
       <!-- gb -->
@@ -112,7 +130,12 @@
         <div class="images-gb">
         <!-- fotos -->
         <div class="services-images-carrusel">
-          <img class="img-galerie" src="../imgs/erika.jpg" alt="photo-bouquet">
+          <ul class="carrusel-animation">
+            <li><img src="../../imgs/bouquet.jpg" alt="bouquet"></li>
+            <li><img src="../../imgs/boutonniere.jpg" alt="boutonniere"></li>
+            <li><img src="../../imgs/Bracelet.jpg" alt="Bracelet"></li>
+            <li><img src="../../imgs/tableau.jpg" alt="tableau"></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -120,12 +143,18 @@
     <section class="galerie margin container">
       <div class="card">
         <!-- titulo -->
-        <h2 class="card__title">Sabrina Rhéaume</h2>
+        <h2 class="card__title">Gallery</h2>
         <!-- texto -->
         <p class="card__text">
-          Je ne peux même pas commencer à décrire à quel point c'était un plaisir de travailler avec vous, la décoration de notre mariage était très unique et nous avons été absolument époustouflés par votre travail. <br>
-          Le travail, le dévouement à la communication, l'attention aux détails et la qualité à quiconque pour n'importe quel enent.
-        </p>        
+          In this image gallery you can observe some of our projects that adapt to all the needs of our customers. <br>
+          All our flowers are selected and put at your service with the best quality.
+        </p>
+        <!-- link -->
+        <div class="container-card__link">
+          <a class="card__link" href="./gallery.html">See the pictures</a>
+          <div class="card__link-line"></div>
+        </div>
+        
       </div>
       <!-- carrusel -->
       <!-- gb -->
@@ -133,18 +162,24 @@
         <div class="images-gb">
         <!-- fotos -->
         <div class="services-images-carrusel">
-            <img class="img-galerie" src="../imgs/sabrina.jpg" alt="photo-bouquet">
+            <img class="img-galerie" src="../../imgs/Fleur-Galerie.jpg" alt="Fleur sur table">
         </div>
       </div>
     </section>
     <section class="temoignages margin container">
       <div class="card">
         <!-- titulo -->
-        <h2 class="card__title">Jenn Piccin</h2>
+        <h2 class="card__title">Testimonials</h2>
         <!-- texto -->
         <p class="card__text">
-          Je voulais juste remercier Mary Ann pour nos incroyables fleurs de mariage! <br> Je lui ai envoyé quelques exemples de photos et notre palette de couleurs et elle a complètement lu dans mon esprit et a créé des bouquets, des boutonnières et des centres de table incroyables qui correspondaient exactement à ce dont nous avions besoin pour convenir à notre style, à notre thème... et à notre budget. Je le recommande vivement!
-        </p>        
+          I had an amazing experience working with Mary Ann. I booked it for my original wedding date in 2020. It was able to accommodate my new date when we rescheduled due to covid. She was very friendly and responsive. She went above and beyond the wedding day and made two stops to deliver flowers to help us out. And her floral arrangements are TOP NOTCH!! 6/5 stars, 100% recommend.
+        </p>
+        <!-- link -->
+        <div class="container-card__link">
+          <a class="card__link" href="./testimonials.html">More testimonials</a>
+          <div class="card__link-line"></div>
+        </div>
+        
       </div>
       <!-- carrusel -->
       <!-- gb -->
@@ -152,15 +187,13 @@
         <div class="images-gb">
         <!-- fotos -->
         <div class="services-images-carrusel">
-          <img class="img-temoignages" src="../imgs/jenn.jpg" alt="photo-bouquet">
+          <img class="img-temoignages" src="../../imgs/Temoignages.jpg" alt="Mariage">
         </div>
       </div>
     </section>
     <footer class="footer container">
       <div class="container-footer">
-        <div class="container-footer__address">
-          Rue Sainte Helene <br />
-          Longueuil, Quebec, Canada
+        <div class="container-footer__address">Street Sainte Helene <br> Longueuil, Quebec, Canada
         </div>
         <div class="container-footer__line"></div>
         <div class="container-footer__contact">
@@ -169,54 +202,44 @@
               <a href="tel:+15145506399">Cel: +1 (514) 550-6399</a>
             </li>
             <li class="container-footer__item">
-              <a href="mailto:info@fleuristelanémone.ca"
-                >Email: info@fleuristelanémone.ca</a
-              >
+              <a href="mailto:info@fleuristelanémone.ca">Email: info@fleuristelanémone.ca</a>
             </li>
           </ul>
         </div>
         <div class="container-footer__linetwo"></div>
         <a href="mailto:info@fleuristelanémone.ca" class="link-mail">
           <div class="box-button">
-            <button class="button">Prenez rendez-vous.</button>
+            <button class="button">Make an appointment</button>
           </div>
         </a>
       </div>
       <div class="box-c-lang">
-        <div class="copyright">© L'anémone, 2023. Tous droits réservés.</div>
+        <div class="copyright">© L'anémone, 2023. All rights reserved.</div>
         <div class="language">
           <svg class="language__icon-reseaux">
-            <a
-              href="https://www.facebook.com/fleuristelanemone"
-              target="_blank"
-              title="facebook"
-            >
-              <use href="../imgs/symbol-defs.svg#icon-facebook"></use>
+            <a href="https://www.facebook.com/fleuristelanemone" target="_blank" title="facebook">
+              <use href="../../imgs/symbol-defs.svg#icon-facebook"></use>
             </a>
           </svg>
           <svg class="language__icon-reseaux">
-            <a
-              href="https://www.instagram.com/fleuristelanemone/"
-              target="_blank"
-              title="instagram"
-            >
-              <use href="../imgs/symbol-defs.svg#icon-instagram"></use>
+            <a href="https://www.instagram.com/fleuristelanemone/" target="_blank" title="instagram">  
+              <use href="../../imgs/symbol-defs.svg#icon-instagram"></use>
             </a>
           </svg>
           <svg class="language__icon">
-            <use href="../imgs/symbol-defs.svg#icon-canada"></use>
+              <use href="../../imgs/symbol-defs.svg#icon-canada"></use>
           </svg>
           <ul class="language__list">
             <li class="language__item">
-              <a class="language__link" href="../index.html">FR</a>
+              <a class="language__link" href="../../index.html">FR</a>
             </li>
             <li class="language__item">
-              <a class="language__link" href="./english/home.html">EN</a>
+              <a class="language__link" href="./home.html">EN</a>
             </li>
           </ul>
         </div>
       </div>
     </footer>
-    <script defer src="../js/mobile-menu.js"></script>
+    <script defer src="../../js/mobile-menu.js"></script>
   </body>
 </html>
