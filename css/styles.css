@@ -123,36 +123,26 @@
   justify-content: center;
   align-items: center;
 }
-.banner__title {
+.banner__text {
   font-family: 'Libre Baskerville', serif;
   color: white;
   font-style: italic;
   font-weight: 500;
-  font-size: 54px;
+  font-size: 50px;
   margin: 20px 20px 0px 20px;
-  max-width: 300px;
-  text-align: start;
-  text-shadow: -6px 3px 5px rgba(0, 0, 0, 0.6);
-}
-.banner__h1 {
-  font-family: 'Libre Baskerville', serif;
-  color: white;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 54px;
-  margin: 20px 20px 20px 20px;
   text-align: center;
   text-shadow: -6px 3px 5px rgba(0, 0, 0, 0.6);
 }
-.banner__text {
+.banner__h1 {
   font-family: 'roboto', serif;
   color: white;
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
   padding: 0 25px 0 25px;
-  margin: 0 0 25px 0;
+  margin: 25px 0 25px 0;
   min-width: 300px;
+  text-shadow: -6px 3px 5px rgba(0, 0, 0, 0.6);
 }
 .banner__line {
   width: 280px;
@@ -453,7 +443,7 @@
   text-shadow: -2px 1px 0px rgba(0, 0, 0, 1);
 }
 .img-banner-galerie {
-  background-image: url('../imgs/Galery-banner.png');
+  background-image: url('../imgs/Galery-banner.jpg');
 }
 /* ------ services */
 .section-services {
