@@ -1,0 +1,6 @@
+Client FTP
+
+Nom: MaryAnn@xn--fleuristelanmone-mqb.ca
+Server: ftp.xn--fleuristelanmone-mqb.ca
+Porte: 21
+Mot de passe: akR!TkKm]7g~
